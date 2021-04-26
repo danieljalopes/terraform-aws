@@ -4,6 +4,9 @@ This a small project that intents to introduce to Terraform and Amazon Web Servi
 This project creates a small web server that displays string when connected from Internet.
 All AWS artefacts needed are created by Terraform
 
+## Project Diagram
+ ![alt text]( ./documentation/images/project_diagram.jpg "Webserver Output")
+
 ## What is done
 The following steps are the ones implemented on Terraform in order to create the environment for the application to execute: 
 
@@ -22,12 +25,21 @@ Login to your AWS account and get the Credentials and create the EC2's Key Pairs
 Then in the same place as the file 'main.tf':
 
 ````
-terraform init # this will initiate Terraform on your project
-terraform plan # this will findout what operations Terraform will perform
-terraform apply # this will apply what is configure in your project
+# this will initiate Terraform on your project
+terraform init
+
+# this will findout what operations Terraform will perform
+terraform plan 
+
+# this will apply what is configure in your project
+terraform apply 
 ````
 
+If everything went whell you can view the output of the server
+ ![alt text]( ./documentation/images/web_page_success.jpg "Webserver Output")
 
+ To see the output you must get the Public IP of your instance, you can get it at the EC2 instances page and get the 
+ ![alt text]( ./documentation/images/ec2_instace.jpg "EC2 instances page")
 
 ## Credentials Setup
 To find your credentials go to the places shown by the pictures:
