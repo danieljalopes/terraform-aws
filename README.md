@@ -7,5 +7,10 @@ Terraform is a tool to construct all the artfacts needed in AWS.
 ## Projects
 Here is a short description for all the projects in this repository
 
+### 01. Create a static web server on Amazon S3
+
+
+
+
 ### Project_1
 Create a web server in EC2 that is reachable from Internet
