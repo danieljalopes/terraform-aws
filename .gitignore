@@ -1,2 +1,1 @@
-project_1/.terraform/
-01_create_static_web_static_using_amazon_s3/.terraform/
+*/.terraform

@@ -9,15 +9,14 @@ Here is a short description for all the projects in this repository
 
 ### 01. Create a static web server on Amazon S3
 Create and configure a simple static website
-**Actions**
-* create S3 Bucket
-* enable static webhosting
-* apply bucket policy
+
+![diagram](./01_create_static_web_static_using_amazon_s3/documents/diagram.jpg "")
+
+### 02. Create a basic lambda and send logs to Cloudwatch
+Create a lambda that when executed sends logs to Cloudwatch
+
+![diagram](./02_create_a_basic_lambda_and_send_logs_to_clowdwatch/documentation/Diagram.jpg "")
 
 
 
 
-
-
-### Project_1
-Create a web server in EC2 that is reachable from Internet
