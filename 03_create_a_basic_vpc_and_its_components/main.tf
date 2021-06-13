@@ -12,8 +12,8 @@ terraform {
 # This credentials are not valid
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIA5NG2LB4XIM7K7ZU3"
-  secret_key = "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"
+  access_key = "xxxxxxxxxxxxxxxxxx"
+  secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 }
 
 

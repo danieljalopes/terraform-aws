@@ -17,6 +17,15 @@ Create a lambda that when executed sends logs to Cloudwatch
 
 ![diagram](./02_create_a_basic_lambda_and_send_logs_to_clowdwatch/documentation/Diagram.jpg "")
 
+### 03. Create a VPC and its components
+Create and understande the VPC concept and what are its components
 
+![diagram](./03_create_a_basic_vpc_and_its_components/documentation/diagram.jpg "")
+
+
+### 04. Create a VPC and its components
+Create and understande the VPC concept and what are its components
+
+![diagram](./03_create_a_basic_vpc_and_its_components/documentation/diagram.jpg "")
 
 
