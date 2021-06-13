@@ -23,9 +23,7 @@ Create and understande the VPC concept and what are its components
 ![diagram](./03_create_a_basic_vpc_and_its_components/documentation/diagram.jpg "")
 
 
-### 04. Create a VPC and its components
-Create and understande the VPC concept and what are its components
+### 04. Create an EC2 instance
+This is about how to select and instanciate an AMI image on EC2
 
-![diagram](./03_create_a_basic_vpc_and_its_components/documentation/diagram.jpg "")
-
-
+![diagram](./04_create_an_ec2_instance/documentation/Diagram.jpg "")
