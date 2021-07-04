@@ -21,5 +21,6 @@ Terraform always include the file "terraform.tfvars".
 Is created a file "variables.tf" to declare de used variables.
 ### Ways to pass variables
 - by creating a file with ".auto.tfvars", like "foo.auto.tfvars". This file will be automaticaly loadad by Terraform;
-- including a file in the cli: `terraform apply -var-file=dev.tfvars`
-- assginig the variable in the cli: `terraform apply -var-file=dev.tfvars`
+- including a file in the cli: `terraform apply -var-file dev.tfvars`
+- assginig the variable in the cli: `terraform apply -var="my_instance_type=t2.large`
+- by global variable. Any variable in the machine that starts with "TF_VAR_": `TF_VAR_my_instance_type="t2.large terraform apply"`
