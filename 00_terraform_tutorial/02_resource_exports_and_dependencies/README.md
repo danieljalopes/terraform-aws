@@ -5,3 +5,5 @@ Each resource in Terraform exports data and information about the resource. This
 ## What is done
 - Create an AWS VPC, Subnet and Instance
 - Use the exported attributes from one resource into another creating a dependency
+
+  ![Diagram]( ./documentation/diagram.jpg "Diagram")
