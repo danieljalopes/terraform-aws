@@ -1,0 +1,2 @@
+# Local Variables
+Local values are similar to variables but are local to a configuration. Locals are defined and used in your configuration files. Unlike variables in Terraform locals can not be passed in to configurations.
